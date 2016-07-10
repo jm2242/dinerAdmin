@@ -4,7 +4,7 @@
 @Config =
 
 	# Basic Details
-	name: 'My App'
+	name: 'dineR'
 	title: ->
 			TAPi18n.__ 'configTitle'
 	subtitle: ->

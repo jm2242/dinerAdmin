@@ -27,6 +27,12 @@ onAfterAction = ->
     , 300
 
 Router.onAfterAction onAfterAction
+`
+Router.route('/submittedOrders', {
+  name: "submittedOrders",
+  where: "client",
+})`
+
 
 #To allow non-logged in users to access more routes, add it in the _config.coffee file
 publicRoutes = _.union Config.publicRoutes || [], [

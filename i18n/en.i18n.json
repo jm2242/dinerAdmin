@@ -1,9 +1,9 @@
 {
 
 	/*Config*/
-	"configName": "My App",
-	"configTitle": "Make Meteor Apps. Fast.",
-	"configSubtitle": "Create beautiful and functioning Meteor apps really quick",
+	"configName": "dineR",
+	"configTitle": "dineR",
+	"configSubtitle": "Put a Subtitle Here",
 	
 	/*Home*/
 	"getstarted": "Get Started",
