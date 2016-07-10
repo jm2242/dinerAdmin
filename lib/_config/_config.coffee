@@ -57,3 +57,4 @@
 	homeRoute: '/'
 	publicRoutes: ['home']
 	dashboardRoute: '/dashboard'
+	homeRoute: '/'
