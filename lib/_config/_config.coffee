@@ -8,7 +8,17 @@
 	title: ->
 			TAPi18n.__ 'configTitle'
 	subtitle: ->
-			TAPi18n.__ 'configSubtitle'
+			'Match with delicious local meals in your area!'
+	step1Text: ->
+			'Start browsing dineR’s selection of local creations tailored for you'
+	step2Text: ->
+			'With a simple swipe customize your order to make your perfect meal'
+	step3Text: ->
+			'Choose pickup or delivery and enjoy!'
+	sectionIpadHeader: ->
+			'Our meal always swipes right!'
+	sectionIpadParagraph: ->
+			'Finding your perfect meal has never been easier with dineR!'
 	logo: ->
 		'<b>' + @name + '</b>'
 	footer: ->

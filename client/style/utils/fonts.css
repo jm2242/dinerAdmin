@@ -1,0 +1,17 @@
+.main-class {
+	color: #ff6600;
+	text-shadow: -1px 0 white, 0 1px white, 0 -1px white, 0 1px white;
+}
+
+.big-font {
+	font-size: 150px;
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 100%;
+  width: auto;
+}
+
