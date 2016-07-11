@@ -8,7 +8,7 @@
 	title: ->
 			TAPi18n.__ 'configTitle'
 	subtitle: ->
-			'Match with delicious local meals in your area!'
+			'Match with delicious meals in your area!'
 	step1Text: ->
 			'Start browsing dineR’s selection of local creations tailored for you'
 	step2Text: ->
