@@ -2,7 +2,9 @@
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="row">
-                <a class="navbar-brand link" href="{{pathFor 'home'}}">{{Config.name}}</a>
+                <a class="navbar-brand link" href="{{pathFor 'home'}}">
+                    <img src="img/logo_no_square_orange_and_white_writing.png">
+                </a>
                 <div id="main-nav" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
                         {{#if User}}
@@ -20,18 +22,18 @@
             </div>
         </div>
     </nav>
-    <section id="intro" class="colored text-center">
+    <section id="intro" class="colored text-center" style="background-size: 100% 100%">
         <div class="container">
             <div class="intro-well wow animated bounceIn">
                 <div class="row">
                     <div class="col-lg-12 col-sm-12">
-                        <h1>{{Config.title}}</h1>
-                        <h2 class="hidden-xs">{{Config.subtitle}}</h2>
-                        {{#if User}}
+                        <h1 class="main-class big-font">{{Config.title}}</h1>
+                        <h2 class="main-class hidden-xs">{{Config.subtitle}}</h2>
+                        <!-- {{#if User}}
                         <a href="{{pathFor 'submittedOrders'}}" class="btn btn-lg btn-success"><i class="fa fa-dashboard"></i> {{_ "Your Order Console"}}</a>
                         {{else}}
                         <a class="btn btn-hollow" href="{{pathFor 'atSignUp'}}">{{_ "getstarted"}}</a>
-                        {{/if}}
+                        {{/if}} -->
                     </div>
                 </div>
             </div>
@@ -48,24 +50,24 @@
             <div class="row" id="icon-row">
                 <div class="col-md-4 wow fadeInUp animated" data-wow-delay="0.4s">
                     <div class="iconbox">
-                        <i class="fa fa-plane fa-3x"></i>
+                        <i class="fa fa-cutlery fa-3x"></i>
                     </div>
                     <h2 class="icntitle">1. {{_ "step_1"}}</h2>
-                    <p class="icnp">{{_ "step_1_text"}}</p>
+                    <p class="icnp">{{Config.step1Text}}</p>
                 </div>
                 <div class="col-md-4 wow fadeInUp animated" data-wow-delay="0.8s">
                     <div class="iconbox">
-                        <i class="fa fa-bolt fa-3x"></i>
+                        <i class="fa fa-hand-o-up fa-3x"></i>
                     </div>
                     <h2 class="icntitle">2. {{_ "step_2"}}</h2>
-                    <p class="icnp">{{_ "step_2_text"}}</p>
+                    <p class="icnp">{{Config.step2Text}}</p>
                 </div>
                 <div class="col-md-4 wow fadeInUp animated" data-wow-delay="1.2s">
                     <div class="iconbox">
-                        <i class="fa fa-check fa-3x"></i>
+                        <i class="fa fa-thumbs-o-up fa-3x"></i>
                     </div>
                     <h2 class="icntitle">3. {{_ "step_3"}}</h2>
-                    <p class="icnp">{{_ "step_3_text"}}</p>
+                    <p class="icnp">{{Config.step3Text}}</p>
                 </div>
             </div>
         </div>
@@ -74,21 +76,21 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    <h3>{{_ "section_ipad_header"}}</h3>
-                    <p>{{_ "section_ipad_text"}}</p>
-                    <p class="text-center">
+                    <h3>{{Config.sectionIpadHeader}}</h3>
+                    <p>{{Config.sectionIpadParagraph}}</p>
+                    <!-- <p class="text-center">
                     <a href="{{Config.about}}" target="_blank" class="btn btn-success">
                     {{_ "section_ipad_btn"}}
                     </a>
-                    </p>
+                    </p> -->
                 </div>
                 <div class="col-sm-6">
-                    <img id="ipad" src="/img/ipad.png" alt="" class="wow animated fadeInRight" data-wow-delay="1s">
+                    <img id="ipad" src="/img/iphone6_spacegrey_landscape.png" alt="" class="wow animated fadeInRight" data-wow-delay="1s">
                 </div>
             </div>
         </div>
     </section>
-    <section id="final">
+    <!-- <section id="final">
         <div class="container">
             <div class="row">
                 <div class="col-md-4 text-center wow fadeInDown animated" data-wow-delay="0.8s">
@@ -104,5 +106,5 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 </template>
