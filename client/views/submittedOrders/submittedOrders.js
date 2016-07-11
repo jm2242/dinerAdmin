@@ -21,7 +21,9 @@ Template.submittedOrders.helpers({
                 {key: 'customerLocation',label: 'Customer Address'},
                 {key:'meal', label: 'Meal'},
                 {key:'orderMethod',label:'Order Method'},
-                {key:'delivered',label:'Delivered'}],
+                {key:'orderPrice',label:'Order Price'},
+                {key:'delivered',label:'Delivered'},
+                {key:'dateOrdered',label:'Time Ordered'}],
             showFilter: false
         };
         return tableSettingsObject;

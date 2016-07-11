@@ -29,6 +29,7 @@
         <item url="file://$USER_HOME$/.meteor/packages/caching-compiler/1.0.5_1/web.browser/caching-compiler.js" />
         <item url="file://$USER_HOME$/.meteor/packages/timmyg_wow/1.0.1/web.browser/packages/timmyg:wow/wow/css/libs/animate.css" />
         <item url="file://$USER_HOME$/.meteor/packages/tsega_skrollr/0.0.2/web.browser/packages/tsega:skrollr.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/dburles_mongo-collection-instances/0.3.5/web.browser/mongo-instances.js" />
         <item url="file://$USER_HOME$/.meteor/packages/twbs_bootstrap/3.3.6/web.browser/dist/js/bootstrap.js" />
         <item url="file://$USER_HOME$/.meteor/packages/twbs_bootstrap/3.3.6/web.browser/dist/css/bootstrap.css" />
         <item url="file://$USER_HOME$/.meteor/packages/caching-html-compiler/1.0.6/web.browser/caching-html-compiler.js" />
@@ -191,6 +192,7 @@
         <item url="file://$USER_HOME$/.meteor/packages/accounts-ui-unstyled/1.1.12/web.browser/login_buttons_single.js" />
         <item url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/inputTypes/select-checkbox-inline/select-checkbox-inline.js" />
         <item url="file://$USER_HOME$/.meteor/packages/random/1.0.10/web.browser/deprecated.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/lai_collection-extensions/0.2.1_1/web.browser/collection-extensions.js" />
         <item url="file://$USER_HOME$/.meteor/packages/random/1.0.10/web.browser/random_tests.js" />
         <item url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/inputTypes/select-radio-inline/select-radio-inline.js" />
         <item url="file://$USER_HOME$/.meteor/packages/random/1.0.10/web.browser/random.js" />
@@ -588,6 +590,7 @@
       <root url="file://$USER_HOME$/.meteor/packages/caching-compiler/1.0.5_1/web.browser/caching-compiler.js" />
       <root url="file://$USER_HOME$/.meteor/packages/timmyg_wow/1.0.1/web.browser/packages/timmyg:wow/wow/css/libs/animate.css" />
       <root url="file://$USER_HOME$/.meteor/packages/tsega_skrollr/0.0.2/web.browser/packages/tsega:skrollr.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/dburles_mongo-collection-instances/0.3.5/web.browser/mongo-instances.js" />
       <root url="file://$USER_HOME$/.meteor/packages/twbs_bootstrap/3.3.6/web.browser/dist/js/bootstrap.js" />
       <root url="file://$USER_HOME$/.meteor/packages/twbs_bootstrap/3.3.6/web.browser/dist/css/bootstrap.css" />
       <root url="file://$USER_HOME$/.meteor/packages/caching-html-compiler/1.0.6/web.browser/caching-html-compiler.js" />
@@ -750,6 +753,7 @@
       <root url="file://$USER_HOME$/.meteor/packages/accounts-ui-unstyled/1.1.12/web.browser/login_buttons_single.js" />
       <root url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/inputTypes/select-checkbox-inline/select-checkbox-inline.js" />
       <root url="file://$USER_HOME$/.meteor/packages/random/1.0.10/web.browser/deprecated.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/lai_collection-extensions/0.2.1_1/web.browser/collection-extensions.js" />
       <root url="file://$USER_HOME$/.meteor/packages/random/1.0.10/web.browser/random_tests.js" />
       <root url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/inputTypes/select-radio-inline/select-radio-inline.js" />
       <root url="file://$USER_HOME$/.meteor/packages/random/1.0.10/web.browser/random.js" />
